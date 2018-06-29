@@ -1,0 +1,75 @@
+/* Universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header section */
+header {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #999999;
+  position: fixed;
+}
+
+nav {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  font-family: serif;
+}
+
+/* Section */
+section {
+  width: 100%;
+  background-image: url('./sample-pattern.png');
+  padding: 40px;
+  padding-top: 100px;
+}
+h1 {
+  font-family: "Slabo",fantasy;
+  font-size: 2.5em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+#article-list {
+  width: 70%;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid #F2F2F2;
+}
+article {
+  background-color: #ffffff;
+  padding: 25px 15px;
+  border-bottom: 1px solid #CCCCCC;
+}
+article:last-child {
+  border: none;
+}
+article a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Footer section */
+footer {
+  width: 100%;
+  padding: 25px;
+  background-color: #000000;
+}
+footer h5 {
+  color: #f2f2f2;
+  font-family: sans-serif;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
